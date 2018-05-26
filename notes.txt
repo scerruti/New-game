@@ -1,0 +1,8 @@
+1) Move all classes to their own files.
+2) Move all images and sounds to a resources folder.
+3) Create a class for Thomas, we will copy all of Thomas' functionality to this class.
+4) As you build Thomas' functionality you will notice functionality that is common to all game objects.
+At that point extract a game object superclass. I've implemented an intersect method and a draw method.
+5) Now we can build road and track from game object.
+6) We will see that we can extend track into upper and lower track.
+7) Moved the landing code into the activity handler
